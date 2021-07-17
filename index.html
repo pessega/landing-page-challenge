@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Breja - Beer Friday</title>
+
+    <link rel="shortcut icon" href="./assets/beer.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="container-row">
+      <nav class="container-row">
+        <img src="./assets/breja-02.png" alt="" />
+        <ul>
+          <li><a href="#products">Cervejas</a></li>
+          <li><a href="#register">Garantir descontos</a></li>
+        </ul>
+        <a
+          target="_blank"
+          class="official-store"
+          href="https://www.linkedin.com/in/andressa-duarte-3986584a/"
+          >Loja oficial
+          <img class="arrow-right" src="./assets/arrow-right.svg" alt=""
+        /></a>
+      </nav>
+    </header>
+
+    <section class="first-sect container-row">
+      <div class="hero-left container-column">
+        <h1 class="hero-title">Descontos <br />de até <span>60%</span></h1>
+        <p>
+          Melhor do que sexta-feira e cerveja, é ter isso tudo e DESCONTO! Em
+          Agosto teremos duas BEER FRIDAYS com até 60% off. Confira as cervejas
+          participantes e cadastre-se para garantir os descontos.
+        </p>
+        <a href="#products" class="cta">Ver cervejas</a>
+      </div>
+
+      <div class="hero-right"></div>
+    </section>
+
+    <section id="products" class="products-section container-column">
+      <div class="container-card container-row">
+        <div class="ct-card container-column">
+          <div class="product-card container-column">
+            <h4>Cervejas Wäls</h4>
+            <img class="beer-img" src="./assets/wals.jpg" alt="" />
+            <p>As melhores cervejas com AQUELE saborzinho de MG</p>
+          </div>
+          <div class="disccount">
+            <h1>20%</h1>
+            <p>de desconto</p>
+          </div>
+        </div>
+
+        <div class="ct-card container-column">
+          <div class="product-card container-column">
+            <h4>Cervejas Vinil</h4>
+            <img class="beer-img" src="./assets/vinil.jpg" alt="" />
+            <p>As mais criativas do mercado, com um toque de sofisticação</p>
+          </div>
+          <div class="disccount">
+            <h1>40%</h1>
+            <p>de desconto</p>
+          </div>
+        </div>
+
+        <div class="ct-card container-column">
+          <div class="product-card container-column">
+            <h4>Cervejas Ignorus</h4>
+            <img class="beer-img" src="./assets/tucndeira.jpg" alt="" />
+            <p>Nuh! Só cerveja forte e gostosa, com desconto jamais visto!</p>
+          </div>
+          <div class="disccount">
+            <h1>60%</h1>
+            <p>de desconto</p>
+          </div>
+        </div>
+      </div>
+      <a href="#register" class="cta-blk">Garanitr desconto</a>
+    </section>
+
+    <section class="last-sect container-column" id="register">
+      <h1>Cadastre-se para garantir os descontos</h1>
+
+      <form id="form">
+        <input type="email" placeholder="e-mail" name="" id="email" />
+        <input type="submit" value="Cadastrar" id="btn" />
+      </form>
+    </section>
+
+    <footer>
+      <p>Desenvolvimento e Design: Andressa Duarte - 2021</p>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
